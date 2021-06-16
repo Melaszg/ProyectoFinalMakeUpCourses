@@ -1,0 +1,24 @@
+.consejos {
+  padding: 30px 0;
+}
+
+.consejos h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #ff7798;
+  font-size: 80px;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.consejos h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  background-image: url(../../assets/img/mancha.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

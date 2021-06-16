@@ -1,0 +1,11 @@
+.consejos h2 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #ff7798;
+    font-size: 80px;
+    letter-spacing: 4px;
+    font-weight: 500;
+  }
+  .textos {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+  }

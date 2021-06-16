@@ -1,0 +1,51 @@
+.cursos {
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.cursos p {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.imgcursos {
+  flex-basis: 40%;
+}
+.articulo {
+  flex-basis: 60%;
+}
+.botones {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: white;
+  background: #ff7798;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.botones:hover {
+  color: white;
+  background: black;
+  transition: ease-in-out 0.2s;
+}
+
+.titulos {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.textos {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  .titulos {
+    font-size: 66px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+}

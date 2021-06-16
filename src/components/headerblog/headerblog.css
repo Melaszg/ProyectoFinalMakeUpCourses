@@ -1,0 +1,17 @@
+.home-blog {
+  background-color: black;
+}
+
+.main li {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin: 0 40px;
+  padding: 5px 7px;
+}
+
+.main li :hover {
+  color: white;
+  background: #ff7798;
+  transition: ease-in-out 0.2s;
+}

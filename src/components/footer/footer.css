@@ -1,0 +1,75 @@
+.footer {
+  background: black;
+  color: white;
+  padding: 50px 0 30px;
+}
+
+.info h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 150px 0 5px;
+}
+
+.info h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.iconos a {
+  flex-basis: 10%;
+  padding: 5px;
+}
+
+.espacios {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #979797;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.botonenviar {
+  width: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: black;
+  background: #cdcdcd;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.botonenviar:hover {
+  color: white;
+  background: #ff7798;
+  transition: ease-in-out 0.2s;
+}
+@media (max-width: 500px) {
+  .info h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info h4 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .iconos img {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}

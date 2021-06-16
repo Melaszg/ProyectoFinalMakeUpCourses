@@ -1,0 +1,61 @@
+.tecnicas {
+  padding: 30px 0;
+}
+
+.tecnicas h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #ff7798;
+  font-size: 80px;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.tecnicas h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  background-image: url(../../assets/img/mancha.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.elementos li {
+  flex-basis: 30%;
+  margin: 30px 0;
+}
+
+.elementos li p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.boton3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 23px;
+  color: black;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.boton3:hover {
+  color: white;
+  background: black;
+  transition: ease-in-out 0.2s;
+}
+
+@media (max-width: 500px) {
+  .tecnicas h2 {
+    font-size: 75px;
+    letter-spacing: 4px;
+    font-weight: 500;
+  }
+}

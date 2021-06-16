@@ -1,0 +1,72 @@
+.banner-registro {
+  background-image: url(../../assets/img/registro.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.formulario {
+  background-color: rgba(0, 0, 0, 0.247);
+  padding: 80px 150px;
+  align-items: center;
+  vertical-align: baseline;
+}
+
+.botones-form {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: white;
+  background: #000000;
+  padding: 7px 15px 7px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.botones-form:hover {
+  color: white;
+  background: #ff7798;
+  transition: ease-in-out 0.2s;
+}
+
+.banner-registro h2 {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+.botonregistro {
+  width: 150px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: black;
+  background: #ff7798;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.botonregistro :hover {
+  color: white;
+  background: black;
+  transition: ease-in-out 0.2s;
+}
+
+.registro {
+  flex-basis: 50%;
+}
+
+.registrorapido {
+  flex-basis: 40%;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .botones-form {
+    font-size: 20px;
+    padding: 7px 7px 7px;
+  }
+}
