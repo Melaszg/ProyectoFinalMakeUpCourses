@@ -29,24 +29,6 @@ function Footer() {
               </a>
             </div>
           </aside>
-          <aside className="form d-flex justify-content-start flex-column">
-            <h4>Para Más Información</h4>
-            <input
-              className="espacios"
-              type="text"
-              name="nombres"
-              id="nombres"
-              placeholder="Nombre"
-            />
-            <input
-              className="espacios"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-            />
-            <input className="botonenviar" type="submit" value="Enviar" />
-          </aside>
         </section>
       </section>
     </footer>

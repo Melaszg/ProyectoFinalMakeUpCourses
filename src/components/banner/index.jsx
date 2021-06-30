@@ -16,7 +16,7 @@ function Banner() {
             este increíble mundo.
           </p>
           <Link span className="boton" to="registro">
-            inscribirse
+            ir a cursos
           </Link>
         </div>
       </div>
